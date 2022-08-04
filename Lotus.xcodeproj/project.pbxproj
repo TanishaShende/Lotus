@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE03B8E4289C1024008F5C60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE03B8E3289C1024008F5C60 /* AppDelegate.swift */; };
+		EE03B8E6289C1024008F5C60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE03B8E5289C1024008F5C60 /* SceneDelegate.swift */; };
+		EE03B8E8289C1024008F5C60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE03B8E7289C1024008F5C60 /* ViewController.swift */; };
+		EE03B8EB289C1024008F5C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE03B8E9289C1024008F5C60 /* Main.storyboard */; };
+		EE03B8EE289C1024008F5C60 /* Lotus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE03B8EC289C1024008F5C60 /* Lotus.xcdatamodeld */; };
+		EE03B8F0289C1028008F5C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE03B8EF289C1028008F5C60 /* Assets.xcassets */; };
+		EE03B8F3289C1029008F5C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE03B8F1289C1029008F5C60 /* LaunchScreen.storyboard */; };
+		EE03B8FE289C1029008F5C60 /* LotusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE03B8FD289C1029008F5C60 /* LotusTests.swift */; };
+		EE03B908289C1029008F5C60 /* LotusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE03B907289C1029008F5C60 /* LotusUITests.swift */; };
+		EE03B90A289C1029008F5C60 /* LotusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE03B909289C1029008F5C60 /* LotusUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE03B8FA289C1029008F5C60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE03B8D8289C1024008F5C60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE03B8DF289C1024008F5C60;
+			remoteInfo = Lotus;
+		};
+		EE03B904289C1029008F5C60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE03B8D8289C1024008F5C60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE03B8DF289C1024008F5C60;
+			remoteInfo = Lotus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE03B8E0289C1024008F5C60 /* Lotus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lotus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE03B8E3289C1024008F5C60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE03B8E5289C1024008F5C60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE03B8E7289C1024008F5C60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE03B8EA289C1024008F5C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE03B8ED289C1024008F5C60 /* Lotus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lotus.xcdatamodel; sourceTree = "<group>"; };
+		EE03B8EF289C1028008F5C60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE03B8F2289C1029008F5C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE03B8F4289C1029008F5C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE03B8F9289C1029008F5C60 /* LotusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE03B8FD289C1029008F5C60 /* LotusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotusTests.swift; sourceTree = "<group>"; };
+		EE03B903289C1029008F5C60 /* LotusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE03B907289C1029008F5C60 /* LotusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotusUITests.swift; sourceTree = "<group>"; };
+		EE03B909289C1029008F5C60 /* LotusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE03B8DD289C1024008F5C60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE03B8F6289C1029008F5C60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE03B900289C1029008F5C60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE03B8D7289C1024008F5C60 = {
+			isa = PBXGroup;
+			children = (
+				EE03B8E2289C1024008F5C60 /* Lotus */,
+				EE03B8FC289C1029008F5C60 /* LotusTests */,
+				EE03B906289C1029008F5C60 /* LotusUITests */,
+				EE03B8E1289C1024008F5C60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE03B8E1289C1024008F5C60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE03B8E0289C1024008F5C60 /* Lotus.app */,
+				EE03B8F9289C1029008F5C60 /* LotusTests.xctest */,
+				EE03B903289C1029008F5C60 /* LotusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE03B8E2289C1024008F5C60 /* Lotus */ = {
+			isa = PBXGroup;
+			children = (
+				EE03B8E3289C1024008F5C60 /* AppDelegate.swift */,
+				EE03B8E5289C1024008F5C60 /* SceneDelegate.swift */,
+				EE03B8E7289C1024008F5C60 /* ViewController.swift */,
+				EE03B8E9289C1024008F5C60 /* Main.storyboard */,
+				EE03B8EF289C1028008F5C60 /* Assets.xcassets */,
+				EE03B8F1289C1029008F5C60 /* LaunchScreen.storyboard */,
+				EE03B8F4289C1029008F5C60 /* Info.plist */,
+				EE03B8EC289C1024008F5C60 /* Lotus.xcdatamodeld */,
+			);
+			path = Lotus;
+			sourceTree = "<group>";
+		};
+		EE03B8FC289C1029008F5C60 /* LotusTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE03B8FD289C1029008F5C60 /* LotusTests.swift */,
+			);
+			path = LotusTests;
+			sourceTree = "<group>";
+		};
+		EE03B906289C1029008F5C60 /* LotusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE03B907289C1029008F5C60 /* LotusUITests.swift */,
+				EE03B909289C1029008F5C60 /* LotusUITestsLaunchTests.swift */,
+			);
+			path = LotusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE03B8DF289C1024008F5C60 /* Lotus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE03B90D289C1029008F5C60 /* Build configuration list for PBXNativeTarget "Lotus" */;
+			buildPhases = (
+				EE03B8DC289C1024008F5C60 /* Sources */,
+				EE03B8DD289C1024008F5C60 /* Frameworks */,
+				EE03B8DE289C1024008F5C60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lotus;
+			productName = Lotus;
+			productReference = EE03B8E0289C1024008F5C60 /* Lotus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE03B8F8289C1029008F5C60 /* LotusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE03B910289C1029008F5C60 /* Build configuration list for PBXNativeTarget "LotusTests" */;
+			buildPhases = (
+				EE03B8F5289C1029008F5C60 /* Sources */,
+				EE03B8F6289C1029008F5C60 /* Frameworks */,
+				EE03B8F7289C1029008F5C60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE03B8FB289C1029008F5C60 /* PBXTargetDependency */,
+			);
+			name = LotusTests;
+			productName = LotusTests;
+			productReference = EE03B8F9289C1029008F5C60 /* LotusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE03B902289C1029008F5C60 /* LotusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE03B913289C1029008F5C60 /* Build configuration list for PBXNativeTarget "LotusUITests" */;
+			buildPhases = (
+				EE03B8FF289C1029008F5C60 /* Sources */,
+				EE03B900289C1029008F5C60 /* Frameworks */,
+				EE03B901289C1029008F5C60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE03B905289C1029008F5C60 /* PBXTargetDependency */,
+			);
+			name = LotusUITests;
+			productName = LotusUITests;
+			productReference = EE03B903289C1029008F5C60 /* LotusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE03B8D8289C1024008F5C60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					EE03B8DF289C1024008F5C60 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					EE03B8F8289C1029008F5C60 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EE03B8DF289C1024008F5C60;
+					};
+					EE03B902289C1029008F5C60 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EE03B8DF289C1024008F5C60;
+					};
+				};
+			};
+			buildConfigurationList = EE03B8DB289C1024008F5C60 /* Build configuration list for PBXProject "Lotus" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE03B8D7289C1024008F5C60;
+			productRefGroup = EE03B8E1289C1024008F5C60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE03B8DF289C1024008F5C60 /* Lotus */,
+				EE03B8F8289C1029008F5C60 /* LotusTests */,
+				EE03B902289C1029008F5C60 /* LotusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE03B8DE289C1024008F5C60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE03B8F3289C1029008F5C60 /* LaunchScreen.storyboard in Resources */,
+				EE03B8F0289C1028008F5C60 /* Assets.xcassets in Resources */,
+				EE03B8EB289C1024008F5C60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE03B8F7289C1029008F5C60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE03B901289C1029008F5C60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE03B8DC289C1024008F5C60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE03B8E8289C1024008F5C60 /* ViewController.swift in Sources */,
+				EE03B8EE289C1024008F5C60 /* Lotus.xcdatamodeld in Sources */,
+				EE03B8E4289C1024008F5C60 /* AppDelegate.swift in Sources */,
+				EE03B8E6289C1024008F5C60 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE03B8F5289C1029008F5C60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE03B8FE289C1029008F5C60 /* LotusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE03B8FF289C1029008F5C60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE03B90A289C1029008F5C60 /* LotusUITestsLaunchTests.swift in Sources */,
+				EE03B908289C1029008F5C60 /* LotusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE03B8FB289C1029008F5C60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE03B8DF289C1024008F5C60 /* Lotus */;
+			targetProxy = EE03B8FA289C1029008F5C60 /* PBXContainerItemProxy */;
+		};
+		EE03B905289C1029008F5C60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE03B8DF289C1024008F5C60 /* Lotus */;
+			targetProxy = EE03B904289C1029008F5C60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE03B8E9289C1024008F5C60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE03B8EA289C1024008F5C60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE03B8F1289C1029008F5C60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE03B8F2289C1029008F5C60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE03B90B289C1029008F5C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE03B90C289C1029008F5C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE03B90E289C1029008F5C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lotus/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.Lotus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE03B90F289C1029008F5C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lotus/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.Lotus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE03B911289C1029008F5C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.LotusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lotus.app/Lotus";
+			};
+			name = Debug;
+		};
+		EE03B912289C1029008F5C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.LotusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lotus.app/Lotus";
+			};
+			name = Release;
+		};
+		EE03B914289C1029008F5C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.LotusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lotus;
+			};
+			name = Debug;
+		};
+		EE03B915289C1029008F5C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.LotusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lotus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE03B8DB289C1024008F5C60 /* Build configuration list for PBXProject "Lotus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE03B90B289C1029008F5C60 /* Debug */,
+				EE03B90C289C1029008F5C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE03B90D289C1029008F5C60 /* Build configuration list for PBXNativeTarget "Lotus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE03B90E289C1029008F5C60 /* Debug */,
+				EE03B90F289C1029008F5C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE03B910289C1029008F5C60 /* Build configuration list for PBXNativeTarget "LotusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE03B911289C1029008F5C60 /* Debug */,
+				EE03B912289C1029008F5C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE03B913289C1029008F5C60 /* Build configuration list for PBXNativeTarget "LotusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE03B914289C1029008F5C60 /* Debug */,
+				EE03B915289C1029008F5C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE03B8EC289C1024008F5C60 /* Lotus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE03B8ED289C1024008F5C60 /* Lotus.xcdatamodel */,
+			);
+			currentVersion = EE03B8ED289C1024008F5C60 /* Lotus.xcdatamodel */;
+			path = Lotus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE03B8D8289C1024008F5C60 /* Project object */;
+}

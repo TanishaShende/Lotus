@@ -9,9 +9,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var communicationButton: UIButton!
+    @IBOutlet weak var comfortButton: UIButton!
+    @IBOutlet weak var remindersButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        // Programmatically setting font and size for each button label
+        communicationButton.titleLabel?.font = UIFont(name: "Times New Roman", size: 20)
+        
+        comfortButton.titleLabel?.font = UIFont(name: "Times New Roman", size: 20)
+        
+        remindersButton.titleLabel?.font = UIFont(name: "Times New Roman", size: 20)
     }
 
 

@@ -17,6 +17,9 @@
 		EE03B8FE289C1029008F5C60 /* LotusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE03B8FD289C1029008F5C60 /* LotusTests.swift */; };
 		EE03B908289C1029008F5C60 /* LotusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE03B907289C1029008F5C60 /* LotusUITests.swift */; };
 		EE03B90A289C1029008F5C60 /* LotusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE03B909289C1029008F5C60 /* LotusUITestsLaunchTests.swift */; };
+		EE03B917289C387A008F5C60 /* communicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE03B916289C3879008F5C60 /* communicationViewController.swift */; };
+		EE03B919289C3B74008F5C60 /* comfortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE03B918289C3B74008F5C60 /* comfortViewController.swift */; };
+		EE03B91B289C3BB8008F5C60 /* remindersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE03B91A289C3BB8008F5C60 /* remindersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		EE03B903289C1029008F5C60 /* LotusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE03B907289C1029008F5C60 /* LotusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotusUITests.swift; sourceTree = "<group>"; };
 		EE03B909289C1029008F5C60 /* LotusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE03B916289C3879008F5C60 /* communicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = communicationViewController.swift; sourceTree = "<group>"; };
+		EE03B918289C3B74008F5C60 /* comfortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comfortViewController.swift; sourceTree = "<group>"; };
+		EE03B91A289C3BB8008F5C60 /* remindersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remindersViewController.swift; sourceTree = "<group>"; };
+		EE03B920289C4A3A008F5C60 /* yes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = yes.m4a; sourceTree = "<group>"; };
+		EE03B922289C4A7E008F5C60 /* no.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = no.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 		EE03B8E2289C1024008F5C60 /* Lotus */ = {
 			isa = PBXGroup;
 			children = (
+				EE03B91A289C3BB8008F5C60 /* remindersViewController.swift */,
+				EE03B918289C3B74008F5C60 /* comfortViewController.swift */,
+				EE03B916289C3879008F5C60 /* communicationViewController.swift */,
+				EE03B91D289C49FD008F5C60 /* Sounds */,
 				EE03B8E3289C1024008F5C60 /* AppDelegate.swift */,
 				EE03B8E5289C1024008F5C60 /* SceneDelegate.swift */,
 				EE03B8E7289C1024008F5C60 /* ViewController.swift */,
@@ -128,6 +140,15 @@
 				EE03B909289C1029008F5C60 /* LotusUITestsLaunchTests.swift */,
 			);
 			path = LotusUITests;
+			sourceTree = "<group>";
+		};
+		EE03B91D289C49FD008F5C60 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EE03B920289C4A3A008F5C60 /* yes.m4a */,
+				EE03B922289C4A7E008F5C60 /* no.m4a */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE03B917289C387A008F5C60 /* communicationViewController.swift in Sources */,
 				EE03B8E8289C1024008F5C60 /* ViewController.swift in Sources */,
 				EE03B8EE289C1024008F5C60 /* Lotus.xcdatamodeld in Sources */,
 				EE03B8E4289C1024008F5C60 /* AppDelegate.swift in Sources */,
+				EE03B91B289C3BB8008F5C60 /* remindersViewController.swift in Sources */,
 				EE03B8E6289C1024008F5C60 /* SceneDelegate.swift in Sources */,
+				EE03B919289C3B74008F5C60 /* comfortViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

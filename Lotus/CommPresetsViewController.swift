@@ -11,7 +11,7 @@ class CommPresetsViewController: UIViewController {
 
     @IBOutlet weak var presetsTableView: UITableView!
     
-    var presets = ["I can’t speak verbally right now, so I’ll be using this app.", "Thank you for understanding.", "Please ask me ‘yes’ or ‘no’ questions.", "Yes", "No", "I don't know.", "I'll think about it.", "Not right now.", "Stop", "Please", "Thank you.", "You're welcome.", "How are you? How was your day?", "It was nice talking to you.", "Bye!", "Have a great day."]
+    var presets = ["I can’t speak verbally right now.", "Thank you for understanding.", "Please ask me ‘yes’ or ‘no’ questions.", "Yes", "No", "I don't know.", "I'll think about it.", "Not right now.", "Stop", "Please", "Thank you.", "You're welcome.", "How are you? How was your day?", "It was nice talking to you.", "Bye!", "Have a great day."]
     
     override func viewDidLoad() {
         super.viewDidLoad()

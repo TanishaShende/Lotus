@@ -57,7 +57,7 @@ extension remindersViewController: UITableViewDelegate, UITableViewDataSource {
         if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
             if let coreDataReminders = try? context.fetch(ReminderCD.fetchRequest()) as? [ReminderCD] {
                 reminders = coreDataReminders
-                tableView.reloadData()
+                remindersTableView.reloadData()
             }
         }
     }
@@ -65,7 +65,7 @@ extension remindersViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let reminder = reminders[indexPath.row]
         
-        performSegue(withIdentifier: "moveToComplete", sender: reminder)
+        performSegue(withIdentifier: "goToComplete", sender: reminder)
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -73,11 +73,11 @@ extension remindersViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 6
+        return reminders.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "rem", for: indexPath)
         
         let reminder = reminders[indexPath.row]
         

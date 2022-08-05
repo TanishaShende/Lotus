@@ -16,6 +16,9 @@ class communicationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        commText.font = UIFont(name: "Times New Roman", size: 18)
+        commText.textColor = UIColor.black
+        
         deleteButton.titleLabel?.font = UIFont(name: "Times New Roman", size: 20)
         presetsButton.titleLabel?.font = UIFont(name: "Times New Roman", size: 20)
     }

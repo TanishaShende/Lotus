@@ -24,6 +24,22 @@ class addReminderViewController: UIViewController {
     @IBAction func addTapped(_ sender: Any) {
         
         // Grab view context to work with Core Data
+        
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
+            return
+        }
+        
+        let context = appDelegate.persistentContainer.viewContext
+        
+        let reminder = ReminderCD(context: context)
+        
+        reminder.name = reminderTextField.text
+        
+        appDelegate.saveContext()
+        
+        navigationController?.popViewController(animated: true)
+        
+        /*
         if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
             
             // Create a new ReminderCD object
@@ -37,6 +53,7 @@ class addReminderViewController: UIViewController {
            try? context.save()
             
             navigationController?.popViewController(animated: true)
+         */
         }
     }
     
@@ -51,4 +68,3 @@ class addReminderViewController: UIViewController {
     }
     */
 
-}

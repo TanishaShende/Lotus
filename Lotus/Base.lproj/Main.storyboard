@@ -356,6 +356,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="JY3-ns-bbb" eventType="touchUpInside" id="Y4j-KI-OOA"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Drj-mA-gat">
                                 <rect key="frame" x="82" y="423" width="250" height="50"/>
@@ -373,6 +376,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="JY3-ns-bbb" eventType="touchUpInside" id="kYt-9p-tTa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZk-1D-SFv">
                                 <rect key="frame" x="82" y="502" width="250" height="50"/>
@@ -390,6 +396,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="JY3-ns-bbb" eventType="touchUpInside" id="ZIf-pR-hQn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vum-yf-kNB">
                                 <rect key="frame" x="82" y="585" width="250" height="50"/>
@@ -407,12 +416,37 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="JY3-ns-bbb" eventType="touchUpInside" id="PKB-6j-tfb"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EMr-qV-soi">
+                                <rect key="frame" x="32" y="673" width="350" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.8980392157" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Words of Affirmation Incoming...">
+                                        <attributes>
+                                            <color key="NSColor" red="0.010546164342025446" green="0.010671713917525749" blue="0.010671713917525749" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="20" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dTU-IR-SO3"/>
                         <color key="backgroundColor" red="1" green="0.80392156859999997" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="m4T-Ui-oH3"/>
+                    <connections>
+                        <outlet property="aloneButton" destination="Drj-mA-gat" id="ynO-1q-44i"/>
+                        <outlet property="burdenButton" destination="hZk-1D-SFv" id="krk-TF-H7o"/>
+                        <outlet property="hopelessButton" destination="vum-yf-kNB" id="ebT-nj-mbh"/>
+                        <outlet property="invalidButton" destination="tCm-di-hle" id="3xW-FC-YWM"/>
+                        <outlet property="words" destination="EMr-qV-soi" id="srw-9H-YtB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PUd-uV-1jw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -512,7 +546,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ame-dr-uTw">
-                                <rect key="frame" x="31" y="339" width="350" height="62"/>
+                                <rect key="frame" x="31" y="333" width="350" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="3. Call a friend or schedule time together.">
@@ -642,20 +676,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psU-ti-u2C">
-                                <rect key="frame" x="119" y="353" width="176" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Reminder Name">
-                                        <attributes>
-                                            <color key="NSColor" red="0.73725490196078436" green="0.38431372549019605" blue="0.50588235294117645" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="25" name="TimesNewRomanPS-BoldMT"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xrv-1l-kb6">
                                 <rect key="frame" x="122" y="407" width="170" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -678,6 +698,20 @@
                                     <action selector="deleteButtonPressed:" destination="tZT-g2-YWH" eventType="touchUpInside" id="9Bg-ec-DUw"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psU-ti-u2C">
+                                <rect key="frame" x="32" y="308" width="350" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Reminder Name">
+                                        <attributes>
+                                            <color key="NSColor" red="0.73725490196078436" green="0.38431372549019605" blue="0.50588235294117645" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="25" name="TimesNewRomanPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8IC-2I-mfj"/>
                         <color key="backgroundColor" red="1" green="0.80392156859999997" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -689,7 +723,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CEx-nC-1sR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1832" y="1681"/>
+            <point key="canvasLocation" x="1831.8840579710147" y="1680.8035714285713"/>
         </scene>
     </scenes>
     <resources>

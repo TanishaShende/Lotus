@@ -37,15 +37,6 @@ extension CommPresetsViewController: UITableViewDelegate, UITableViewDataSource 
         return presets.count
     }
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        // Make the first row larger to accommodate a custom cell.
-        if indexPath.row == 0 {
-            return 80
-        }
-        
-        // Use the default size for all other rows.
-        return UITableView.automaticDimension
-    }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return "Pre-Written Sentences"

@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Programmatically setting font and size for each button label
+        // Programmatically setting font and size for each button label because doing it in Storyboard doesn't transfer to Simulator sometimes for some reason
         communicationButton.titleLabel?.font = UIFont(name: "Times New Roman", size: 20)
         
         comfortButton.titleLabel?.font = UIFont(name: "Times New Roman", size: 20)

@@ -23,7 +23,5 @@ class ViewController: UIViewController {
         
         remindersButton.titleLabel?.font = UIFont(name: "Times New Roman", size: 20)
     }
-
-
 }
 

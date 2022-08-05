@@ -60,8 +60,6 @@
 		EE03B916289C3879008F5C60 /* communicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = communicationViewController.swift; sourceTree = "<group>"; };
 		EE03B918289C3B74008F5C60 /* comfortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comfortViewController.swift; sourceTree = "<group>"; };
 		EE03B91A289C3BB8008F5C60 /* remindersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remindersViewController.swift; sourceTree = "<group>"; };
-		EE03B920289C4A3A008F5C60 /* yes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = yes.m4a; sourceTree = "<group>"; };
-		EE03B922289C4A7E008F5C60 /* no.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = no.m4a; sourceTree = "<group>"; };
 		EE03B9AB289CBF14008F5C60 /* CommPresetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommPresetsViewController.swift; sourceTree = "<group>"; };
 		EE03B9AD289CDF5C008F5C60 /* addReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addReminderViewController.swift; sourceTree = "<group>"; };
 		EE03B9AF289CE03E008F5C60 /* completeReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = completeReminderViewController.swift; sourceTree = "<group>"; };
@@ -118,7 +116,6 @@
 				EE03B91A289C3BB8008F5C60 /* remindersViewController.swift */,
 				EE03B918289C3B74008F5C60 /* comfortViewController.swift */,
 				EE03B916289C3879008F5C60 /* communicationViewController.swift */,
-				EE03B91D289C49FD008F5C60 /* Sounds */,
 				EE03B8E3289C1024008F5C60 /* AppDelegate.swift */,
 				EE03B8E5289C1024008F5C60 /* SceneDelegate.swift */,
 				EE03B8E7289C1024008F5C60 /* ViewController.swift */,
@@ -149,15 +146,6 @@
 				EE03B909289C1029008F5C60 /* LotusUITestsLaunchTests.swift */,
 			);
 			path = LotusUITests;
-			sourceTree = "<group>";
-		};
-		EE03B91D289C49FD008F5C60 /* Sounds */ = {
-			isa = PBXGroup;
-			children = (
-				EE03B920289C4A3A008F5C60 /* yes.m4a */,
-				EE03B922289C4A7E008F5C60 /* no.m4a */,
-			);
-			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

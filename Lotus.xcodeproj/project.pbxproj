@@ -20,6 +20,9 @@
 		EE03B917289C387A008F5C60 /* communicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE03B916289C3879008F5C60 /* communicationViewController.swift */; };
 		EE03B919289C3B74008F5C60 /* comfortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE03B918289C3B74008F5C60 /* comfortViewController.swift */; };
 		EE03B91B289C3BB8008F5C60 /* remindersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE03B91A289C3BB8008F5C60 /* remindersViewController.swift */; };
+		EE03B9AC289CBF15008F5C60 /* CommPresetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE03B9AB289CBF14008F5C60 /* CommPresetsViewController.swift */; };
+		EE03B9AE289CDF5D008F5C60 /* addReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE03B9AD289CDF5C008F5C60 /* addReminderViewController.swift */; };
+		EE03B9B0289CE03E008F5C60 /* completeReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE03B9AF289CE03E008F5C60 /* completeReminderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		EE03B91A289C3BB8008F5C60 /* remindersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remindersViewController.swift; sourceTree = "<group>"; };
 		EE03B920289C4A3A008F5C60 /* yes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = yes.m4a; sourceTree = "<group>"; };
 		EE03B922289C4A7E008F5C60 /* no.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = no.m4a; sourceTree = "<group>"; };
+		EE03B9AB289CBF14008F5C60 /* CommPresetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommPresetsViewController.swift; sourceTree = "<group>"; };
+		EE03B9AD289CDF5C008F5C60 /* addReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addReminderViewController.swift; sourceTree = "<group>"; };
+		EE03B9AF289CE03E008F5C60 /* completeReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = completeReminderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,9 @@
 				EE03B8E5289C1024008F5C60 /* SceneDelegate.swift */,
 				EE03B8E7289C1024008F5C60 /* ViewController.swift */,
 				EE03B8E9289C1024008F5C60 /* Main.storyboard */,
+				EE03B9AF289CE03E008F5C60 /* completeReminderViewController.swift */,
+				EE03B9AD289CDF5C008F5C60 /* addReminderViewController.swift */,
+				EE03B9AB289CBF14008F5C60 /* CommPresetsViewController.swift */,
 				EE03B8EF289C1028008F5C60 /* Assets.xcassets */,
 				EE03B8F1289C1029008F5C60 /* LaunchScreen.storyboard */,
 				EE03B8F4289C1029008F5C60 /* Info.plist */,
@@ -285,6 +294,9 @@
 				EE03B917289C387A008F5C60 /* communicationViewController.swift in Sources */,
 				EE03B8E8289C1024008F5C60 /* ViewController.swift in Sources */,
 				EE03B8EE289C1024008F5C60 /* Lotus.xcdatamodeld in Sources */,
+				EE03B9AC289CBF15008F5C60 /* CommPresetsViewController.swift in Sources */,
+				EE03B9AE289CDF5D008F5C60 /* addReminderViewController.swift in Sources */,
+				EE03B9B0289CE03E008F5C60 /* completeReminderViewController.swift in Sources */,
 				EE03B8E4289C1024008F5C60 /* AppDelegate.swift in Sources */,
 				EE03B91B289C3BB8008F5C60 /* remindersViewController.swift in Sources */,
 				EE03B8E6289C1024008F5C60 /* SceneDelegate.swift in Sources */,

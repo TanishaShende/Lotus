@@ -1,15 +1,14 @@
 //
-//  remindersViewController.swift
+//  addReminderViewController.swift
 //  Lotus
 //
-//  Created by Tanisha Shende on 8/4/22.
+//  Created by Tanisha Shende on 8/5/22.
 //
 
 import UIKit
 
-class remindersViewController: UIViewController {
+class addReminderViewController: UIViewController {
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 

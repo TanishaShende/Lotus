@@ -63,4 +63,4 @@ To-Do:
 This app was my final project for Kode With Klossy's Mobile App Development program. Many thanks to the organization and my peers for giving me the resources and encouraging environment needed to create this app successfully! And even more thanks to my wonderful friends for their input and support during the app's development!
 
 ## Contact
-Created by Tanisha Shende. My Discord is tanshe#1575, my Instagram is @tanisha.shende, my Snapchat is tshende76, and my email address is tshende316@gmail.com. Feel free to contact me!
+Created by Tanisha Shende. Check out my [Linktree](https://linktr.ee/tanshe) or email me at tshende316@gmail.com. Feel free to contact me!
